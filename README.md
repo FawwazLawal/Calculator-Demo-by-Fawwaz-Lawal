@@ -84,7 +84,7 @@ git add . (the period (.) is important lol )
 4. Commit the changes
 git commit -m "Brief description of the changes"
 
--m means message, so when you view the git history of updates.
+ " -m " means message, so when you view the git history of updates.
 
 
 5. Push the branch
