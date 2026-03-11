@@ -98,4 +98,4 @@ origin tells git where to send it
 
 # Learning Purpose
 
-This project was created as a **coding demo to learn web development and Git workflows**.
+This project was created by Fawwaz Lawal as a **coding demo to learn web development and Git workflows**.
