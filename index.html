@@ -1,0 +1,31 @@
+<!-- I like to leave comments in my code so I can remember what each part does, remember this is a HTML5 document  -->
+<!DOCTYPE html> <!-- !DOCTYPE tells the browser that this is an HTML5 document. It should be the first thing in the HTML document. -->
+<html lang="en">
+    <!-- <> denotes the opening and closing tags for the HTML element -->
+<head>
+    <title>Calculator by Fawwaz Lawal</title>
+</head>
+<body> 
+ 
+ <!-- input is an HTML element used to create an input field 
+ id attribute is used to uniquely identify the input field  so it can calculate it later
+ type="number" specifies that the input should be a number (good for input validation)
+ placehold is pretty much telling HTML that here I want to display the input text ie the num1 -->   
+    <h1> Type Shit </h1>
+<input id="num1" type="number" placeholder="Enter first number">
+<input id="num2" type="number" placeholder="Enter second number"> 
+
+<br><br> <!--we are still in the body at h1 but i want to add a line break visually-->
+
+<!--button defines input feature onclick attribute specifies the function to call when the button is clicked-->
+<button onclick="add()">Take This (+)</button>
+<button onclick="subtract()">Gimme Dat (-)</button>
+<button onclick="multiply()">  (*)</button>
+<button onclick="divide()">Fatom Tax (/)</button>
+
+<h2 id="result">IS THIS WHAT YOU WANT?: </h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
