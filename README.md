@@ -28,7 +28,7 @@ Users enter two numbers and select an operation to calculate the result.
 ---
 
 # Project Structure
-Calculator-App-ChatGPT
+Calculator-App-Demo
 │
 ├── basic-calculator.html # Main webpage
 ├── script.js # JavaScript logic for calculator operations
