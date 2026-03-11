@@ -67,12 +67,10 @@ Or use the **Live Server extension in VS Code**.
 ---
 
 # Contributing
-
 To update the project:
 
 1. Create a new branch
-git checkout -b branch-name
-
+git checkout -b <your-new-branch-name>
 
 2. Make your changes
 
@@ -81,10 +79,12 @@ git add . (the period (.) is important lol )
 
 4. Commit the changes
 git commit -m "Brief description of the changes"
+-m means message, so when you view the git history of updates.
 
 
 5. Push the branch
-git push origin branch-name
+git push origin <your-new-branch-name>
+origin tells git where to send it
 
 
 6. Open a Pull Request on GitHub.
